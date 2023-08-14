@@ -1,0 +1,55 @@
+/* city-list*/
+.city-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: space-around;
+    margin-bottom: 16px;
+}
+
+
+
+
+/*appartment-card*/
+
+.appartment-card{
+    background-color: white;
+    border-radius: 16px;
+    padding: 8px;
+    box-shadow: 0 0 16px #0000002e;
+    flex-grow: 1; 
+    transition: all 0.2s;
+    flex-basis: 30%;
+    min-width: 240px;
+ }
+ .appartment-card:hover{
+    transform: scale(1.02);
+ }
+ 
+ .appartment-card img{
+     border-radius: 16px 16px 0 0;
+     height: 160px;
+     width: 80%;
+     object-fit: cover; 
+     object-position: center;
+     transition: transform 400ms;
+ }
+
+ img:hover{
+    opacity: 0.8;
+    transition: opacity 0.9s;
+    transform: scale(2);
+ }
+
+
+ .appartment-card p,
+ .appartment-card h3,
+ .popular-description p,
+ .popular-description h3{
+     margin: 8px;
+ }
+ 
+
+
+ /* TEST */
+ /* Style the Image Used to Trigger the Modal */
