@@ -7,9 +7,6 @@
     margin-bottom: 16px;
 }
 
-
-
-
 /*appartment-card*/
 
 .appartment-card{
@@ -41,6 +38,13 @@
     transform: scale(1.2);
  }
 
+ @media screen and( max-width: 480px) {
+     img{
+       width: 100%;
+       max-width: 400px;
+    }
+    }
+
 
  .appartment-card p,
  .appartment-card h3,
@@ -53,3 +57,18 @@
 
  /* TEST */
  /* Style the Image Used to Trigger the Modal */
+ @media screen and (min-width: 980px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
+   
+    header h1, header h2 {
+        width: 80%;
+    }
+    .appartment-card{
+        flex: 0 0 45%;
+    }
+    
+}
+
