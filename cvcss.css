@@ -301,3 +301,48 @@ img:hover{
         flex: 0 1 25%;
     }
 }
+
+@media screen and (min-width: 720px){
+    section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+    }
+    a:hover{
+        color: #fbc931;
+    }
+    header h1, header h2 {
+        width: 80%;
+    }
+    .prez, .contact{
+        flex: 0 0 45%;
+    }
+    .prez{
+        border-bottom: none;
+        border-right: 2px solid #ccc;
+        padding-right: 20px;
+        margin-left: auto;
+    }
+    .contact{
+        padding-left: 20px;
+        margin-right: auto;
+    }
+    .prez a{
+        border: 2px solid transparent;
+    }
+    .prez a:hover{
+        color: #fbc931;
+        background-color: #fff;
+        border: 2px solid #fbc931;
+        box-shadow: 0px 0px 20px #666;
+    }
+    .exp-logo{
+        flex: 0 0 10%;
+    }
+    .exp-info, .exp-desc{
+        flex: 0 0 85%;
+        margin-left: auto;
+    }
+    .interet{
+        flex: 0 1 25%;
+    }
+}
