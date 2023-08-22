@@ -52,7 +52,10 @@ h2 {
   text-align: center;
   text-decoration: none;
 }
-
+#home-tab:hover{
+    color: #007bb5;
+    transition: opacity 0.5s;
+}
 /* Add a hover effect */
 .fa:hover {
   opacity: 0.7;
@@ -152,7 +155,7 @@ img{
 }
 
 
-SECTION EXP ET FORMATION
+/*SECTION EXP ET FORMATION*/
 .exp{
     display: flex;
     flex-flow: row wrap;
@@ -195,7 +198,7 @@ SECTION EXP ET FORMATION
 .comp p{
     flex: 0 0 40%;
 }
-/*
+
 .conteneur-barre{
     flex: 0 0 60%;
     border-radius: 5px;
